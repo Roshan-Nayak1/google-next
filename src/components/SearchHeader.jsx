@@ -4,6 +4,7 @@ import React from 'react'
 import SearchBox from './SearchBox'
 import { RiSettings3Line } from 'react-icons/ri';
 import { TbGridDots } from 'react-icons/tb';
+import { SearchHeaderOptions } from './SearchHeaderOptions';
 
 export default function SearchHeader() {
     return (
@@ -13,7 +14,7 @@ export default function SearchHeader() {
 
                 <Link href="/">
                     <Image
-                        src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
                         alt="Google Logo"
                         width={120}
                         height={40}
@@ -38,6 +39,7 @@ export default function SearchHeader() {
                 </button>
 
             </div>
+            <SearchHeaderOptions />
 
         </header>
     )

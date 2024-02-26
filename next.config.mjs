@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "e7.pngegg.com",
+        hostname: "upload.wikimedia.org",
         pathname: "**",
       },
     ],
