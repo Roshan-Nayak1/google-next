@@ -5,7 +5,7 @@ import { AiOutlineCamera, AiOutlineSearch } from "react-icons/ai";
 
 
 
-export const SearchHeaderOptions = () => {
+export default function SearchHeaderOptions() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const searchTerm = searchParams.get('searchTerm');
