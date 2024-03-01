@@ -1,12 +1,16 @@
-import SearchHeader from '@/components/SearchHeader'
+
+import { Suspense } from "react";
+import SearchHeader from "../../components/SearchHeader";
 import "./../globals.css";
 
 export default function layout({ children }
 ) {
     return (
         <div>
-            <SearchHeader />
-            {children}
+            <Suspense>
+                <SearchHeader />
+                {children}
+            </Suspense>
         </div>
     )
 }

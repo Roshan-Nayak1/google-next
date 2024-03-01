@@ -1,6 +1,8 @@
 "use client"
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import { Suspense } from "react";
+
 import { AiOutlineCamera, AiOutlineSearch } from "react-icons/ai";
 
 
@@ -10,6 +12,9 @@ export default function SearchHeaderOptions() {
     const searchParams = useSearchParams();
     const searchTerm = searchParams.get('searchTerm');
     const pathname = usePathname();
+    <Suspense>
+        <SearchHeaderOptions>{searchParams}</SearchHeaderOptions>
+    </Suspense>
     // "search path from URL " 
     const selectTab = (tab) => {
         router.push(`/search/${tab === "Images" ? "image" : "web"}?searchTerm=${searchTerm}`);

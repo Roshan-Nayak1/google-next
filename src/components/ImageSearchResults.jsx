@@ -1,5 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
+
 import Link from 'next/link';
 import PaginationButtons from './PaginationButtons';
+import Image from 'next/image';
 
 export default function ImageSearchResults({ results }) {
     return (
@@ -12,6 +15,8 @@ export default function ImageSearchResults({ results }) {
                                 <img
                                     src={result.link}
                                     alt={result.title}
+                                    width={10}
+                                    height={10}
                                     className='h-60 group-hover:shadow-xl w-full object-contain transition-shadow duration-300'
                                 />
                             </Link>
