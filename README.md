@@ -8,6 +8,9 @@ Explore the project structure and workflow in the Eraser diagram: [Eraser Worksp
 
 ## Features
 
+https://github.com/Roshan-Nayak1/google-next/assets/90680393/5783b7d7-0555-4e80-8841-ca845e935d2f
+
+
 - **Next.js 14 App Structure:**
   Set up the Next.js app directory with a well-organized file and folder structure.
 
