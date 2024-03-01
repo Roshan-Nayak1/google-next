@@ -4,7 +4,7 @@ This repository contains the source code for a Google Search app built with Next
 
 ## Eraser Diagram
 
-Explore the project structure and workflow in the Eraser diagram: [Eraser Workspace](https://app.eraser.io/workspace/yVKH1...)
+Explore the project structure and workflow in the Eraser diagram: [Eraser Workspace](https://app.eraser.io/workspace/yVKH1LWoWp1UNTPuJHkJ)
 
 ## Features
 
