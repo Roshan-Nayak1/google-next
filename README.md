@@ -67,6 +67,7 @@ Follow these steps to run the project locally:
 ## Contribute
 
 Feel free to contribute by submitting bug reports or feature requests. Pull requests are also welcome!
+Not yet deployed due to some new Next JS 14.1, Update 
 
 ## License
 
