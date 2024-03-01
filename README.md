@@ -55,6 +55,7 @@ Explore the project structure and workflow in the Eraser diagram: [Eraser Worksp
 
 - **Deployment to Vercel:**
   Deploy the app to Vercel for public access.
+  Not yet deployed due to some new Next JS 14.1, Update.
 
 ## Getting Started
 
@@ -67,7 +68,6 @@ Follow these steps to run the project locally:
 ## Contribute
 
 Feel free to contribute by submitting bug reports or feature requests. Pull requests are also welcome!
-Not yet deployed due to some new Next JS 14.1, Update 
 
 ## License
 
