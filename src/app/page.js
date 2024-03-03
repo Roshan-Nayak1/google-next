@@ -1,21 +1,31 @@
 import Image from "next/image";
 import HomeHeader from "../components/HomeHeader";
 import HomeSearch from "../components/HomeSearch";
+import "./globals.css";
 
 export default function Home() {
+  const numberOfCircles = 10; // Set the desired number of circles
+
+  const circles = Array.from({ length: numberOfCircles }, (_, index) => (
+    <li key={index}></li>
+  ));
+
   return (
     <>
+      <ul className="circles">{circles}</ul>
       <HomeHeader />
-      <div className="flex flex-col items-center mt-24">
-        <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
-          alt="Google Logo"
-          width={300}
-          height={100}
-          priority
-          style={{ width: "auto" }}
-        />
-        <HomeSearch />
+      <div className="relative">
+        <div className="flex flex-col items-center mt-24 relative z-10">
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+            alt="Google Logo"
+            width={300}
+            height={100}
+            priority
+            style={{ width: "auto" }}
+          />
+          <HomeSearch />
+        </div>
       </div>
     </>
   );

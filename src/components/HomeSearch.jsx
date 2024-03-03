@@ -33,7 +33,7 @@ export default function HomeSearch() {
                 <AiOutlineSearch className='text-xl text-gray-500 mr-3' />
                 <input
                     type='text'
-                    className='flex-grow focus:outline-none'
+                    className='flex-grow bg-transparent focus:outline-none'
                     onChange={(e) => setInput(e.target.value)}
                 />
                 <BsFillMicFill className='text-lg' />
